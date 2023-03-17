@@ -1,11 +1,11 @@
-# Title (replace with your title)
+# Regex and URL Patterns
 
 Introductory paragraph (replace this with your text)
 
 ## Summary
 
 Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
-
+(single characters, quantifiers, position)
 ## Table of Contents
 
 - [Anchors](#anchors)
@@ -23,9 +23,9 @@ Briefly summarize the regex you will be describing and what you will explain. In
 ## Regex Components
 
 ### Anchors
-
+^ $
 ### Quantifiers
-
+? * +
 ### OR Operator
 
 ### Character Classes
@@ -45,5 +45,5 @@ Briefly summarize the regex you will be describing and what you will explain. In
 ### Look-ahead and Look-behind
 
 ## Author
-
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+Mika is a MERN stack developer, seeking the relationships between coding, art and the environment.
+Get a glimpse of their code [here](https://github.com/mikafeng?tab=repositories).
