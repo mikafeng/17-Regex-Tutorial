@@ -24,29 +24,27 @@ In JavaScript, regexs can also be an object called by a constructor function (mo
 
 This regex pattern uses singe characters [a-z][0-9] which are comprised of digits and alphanumeric characters.
 The meta character '+' is a quantifier (modifies characters in a previous expression) and means 1 or more. 
-In this case it would mean that there needs to be 1 or more characters in the username and domain name.
+In this case it would mean that there needs to be 1 or more characters in the username and domain name to be a valid email address.
 
 To gain a better understanding of how regex may be used, consider the code below:
 
 <img width="1026" alt="Screen Shot 2023-03-17 at 5 27 16 PM" src="https://user-images.githubusercontent.com/110942241/226056694-8e6e910e-9149-4e01-9622-1504042cf072.png">
 
 
-Let's get in to the details of the regex below!
+Now, let's get in to the details of the regex components below!
 
 
 ## Table of Contents
 
 - [Anchors](#anchors)
 - [Quantifiers](#quantifiers)
-- [OR Operator](#or-operator)
 - [Character Classes](#character-classes)
 - [Flags](#flags)
 - [Grouping and Capturing](#grouping-and-capturing)
 - [Bracket Expressions](#bracket-expressions)
-- [Greedy and Lazy Match](#greedy-and-lazy-match)
 - [Boundaries](#boundaries)
 - [Back-references](#back-references)
-- [Look-ahead and Look-behind](#look-ahead-and-look-behind)
+
 
 ## Regex Components
 
@@ -54,8 +52,6 @@ Let's get in to the details of the regex below!
 ^ $
 ### Quantifiers
 ? * +
-### OR Operator
-
 ### Character Classes
 
 ### Flags
@@ -64,13 +60,10 @@ Let's get in to the details of the regex below!
 
 ### Bracket Expressions
 
-### Greedy and Lazy Match
-
 ### Boundaries
 
 ### Back-references
 
-### Look-ahead and Look-behind
 
 ## Author
 Mika is a MERN stack developer, seeking the relationships between coding, art and the environment.
