@@ -47,9 +47,29 @@ Now, let's get in to the details of the regex components below!
 
 
 ## Regex Components
+To create a new Regex object, use the syntax: 
+`myregexp = /regex/`
 
 ### Anchors
-^ $
+Javascript utilizes the caret `^` and dollar `$` characters.
+These characters act as anchors in regex syntax, mathching positional patterns within code.
+
+The `^` anchor matches the beginning of the text.
+The `$`anchor matches the end of the text.
+
+The `^` and `$` anchors can match an exact string when text follows it directly.
+`/^Reminder/` will match strings that start with 'Reminder'. 
+`/end$/` will match strings that end with 'end'.
+Exact string mathches are case sensitive.
+
+`^`([a-zA-Z0-9._%-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6})*`$`
+In the email regex above, the `^` indicates the beginning of the string and `$` indicates the end.
+This regex does not search for an exact string match.
+It utilizes bracket expressions to search for a range of characters.
+
+### Bracket Expressions
+
+
 ### Quantifiers
 ? * +
 ### Character Classes
@@ -58,7 +78,6 @@ Now, let's get in to the details of the regex components below!
 
 ### Grouping and Capturing
 
-### Bracket Expressions
 
 ### Boundaries
 
