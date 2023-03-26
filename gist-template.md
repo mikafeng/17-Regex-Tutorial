@@ -69,16 +69,16 @@ It utilizes bracket expressions to search for a range of characters.
 
 ### Bracket Expressions
 
-[] Bracket expressions enclose a range of characters such as [a-z], [A-Z], [0-9].
+`[]` Bracket expressions enclose a range of characters such as [a-z], [A-Z], [0-9].
 These characters are included in the search match.
-For example, in our email regex the first set of brackets [a-zA-Z0-9._%-] will match with lowercase and uppercase letters a through z, integers 0 through 9 and the symbols . _ % and -.
+For example, in our email regex the first set of brackets [a-zA-Z0-9._%-] will match with lowercase and uppercase letters a through z, integers 0 through 9 and the symbols `.`` _`` %` and`-`.
 
 ### Quantifiers
-? * + Quantifiers let us know how many times we need a character to match. Common quantifiers include:
+`?` `*` `+` Quantifiers let us know how many times we need a character to match. Common quantifiers include:
 
-+ match 1 or more of the preceding character. 
-? matches 0 to 1 times; making the match optional.
-* matches 0 or more times; meaning the character can be absent or repeat any amount of times.
+`+` match 1 or more of the preceding character. 
+`?` matches 0 to 1 times; making the match optional.
+`*` matches 0 or more times; meaning the character can be absent or repeat any amount of times.
 {n} where n is number, can match an exact number of characters needed {3} or a range {3-5}.
 
 In the email regex, we use [a-zA-Z]{2,6}. This indicates that there may be 2 or 3 characters matching a-z such as com or edu.
@@ -86,22 +86,22 @@ In the email regex, we use [a-zA-Z]{2,6}. This indicates that there may be 2 or 
 ### Character Classes
 
 Character classes are shorthand characters used to match any symbol from a character set.
-They are denoted by a \ . For example, the digit character class is /d and will return any match that is a digit.
+They are denoted by a `\` . For example, the digit character class is `/d` and will return any match that is a digit.
 Common character classes are as follows:
 
 ### Flags
 Flags are single lowercase characters that changes the default search of the regex.
-i allows for case-insensitve matching
-g means global and searches for all occurances
-y is a sticky flag and starts the search at a given point in the string.
+`i` allows for case-insensitve matching
+`g` means global and searches for all occurances
+`y` is a sticky flag and starts the search at a given point in the string.
 
 ### Grouping and Capturing
-Grouping and Capturing use () to indicate that the characters between the () will be considered a group or set to be matched. Quanitfiers used with (), like ()+ will apply to the entire set within.
+Grouping and Capturing use `()` to indicate that the characters between the `()` will be considered a group or set to be matched. Quanitfiers used with `()`, like `()+` will apply to the entire set within.
 For example, (nom)+ will match any grouping of nom such as 'nom', 'nomnom', 'nomnomnom' and so on.
 
-## References
+## References/Credit
 There are many more regex properties and nuances to look up.
-This post has referenced https://www.javascripttutorial.net/javascript-regex/ and https://javascript.info/regular-expressions. 
+This post has referenced [JavaScript Tutorial](https://www.javascripttutorial.net/javascript-regex/) and [The Modern JavaScript Tutorial](https://javascript.info/regular-expressions). 
 
 
 ## Author
