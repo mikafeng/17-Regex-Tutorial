@@ -1,2 +1,2 @@
-# 17-Regex-Tutorial
+# Regex Tutorial
 A tutorial on a regex function breaking down it’s search patterns
