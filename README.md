@@ -4,10 +4,10 @@ This tutorial aims to provide a comprehensive understanding of using regular exp
 
 The tutorial will cover the following key topics:
 
-Introduction to Regular Expressions
-Constructing Email Search Patterns
-Implementing Email Search with Regex Functions
-Email Validation and Filtering
+* Introduction to Regular Expressions
+* Constructing Email Search Patterns
+* Implementing Email Search with Regex Functions
+* Email Validation and Filtering
 
 # View of the Introduction
 <img width="845" alt="regex intro" src="https://github.com/mikafeng/Regex-Blog-Post/assets/110942241/fa938c8c-93d6-45dd-8500-5675138a31ab">
